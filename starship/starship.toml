@@ -1,0 +1,27 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = false 
+
+[line_break]
+disabled = true 
+
+[character]
+success_symbol = "[❯](bold #B499FF)"
+error_symbol = "[✗](bold #FFA0A0)"
+vicmd_symbol = "[V](bold #EADD61)"
+
+[git_branch]
+# symbol = "🌿 "
+style = "bold purple"
+
+[git_status]
+style = "bold red"
+
+[directory]
+style = "bold #B499FF"
+truncation_length = 3
+truncate_to_repo = false
+
+[package]
+disabled = true
